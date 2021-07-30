@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*顶部*/
+.header {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header > span {
+    font-size: 50px;
+    color: white;
+}
+
+/*中部*/
+.body {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/Login.png") no-repeat;
+    background-size: cover;
+}
+
+.panel {
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.top {
+    height: 60px;
+    border-bottom: 1px solid white;
+}
+
+.top > p {
+    text-align: center;
+    padding-top: 15px;
+    /*margin: 20px 0;*/
+    font-size: 25px;
+    color: greenyellow;
+}
+
+.middle {
+    position: relative;
+    align-items: center;
+    height: 290px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.middle > form > input.username {
+    height: 50px;
+    width: 300px;
+    margin: 20px 30px;
+    border: 1px solid #e0e0e0;
+}
+
+.middle > form > input.password {
+    height: 50px;
+    width: 300px;
+    margin: 20px 30px;
+    border: 1px solid #e0e0e0;
+}
+
+.middle > form > input.submit {
+    background-color: greenyellow;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.middle > form > input.register {
+    background-color: greenyellow;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.middle > form > .s1 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 55px;
+    top: 27px;
+    background: url("../images/Username.PNG") no-repeat;
+}
+
+.middle > form > .s2 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 55px;
+    top: 117px;
+    background: url("../images/Password.PNG") no-repeat;
+}
+
+/*错误提示*/
+.middle > .erro {
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
+
+.tail > a {
+    float: right;
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.tail > a:hover {
+    color: red;
+}
+
+.middle > form > .iputs:hover {
+    border: 1px solid red;
+}
+
+/*尾部*/
+.footer {
+    text-align: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+}
+
+.footer > span {
+    font-size: 25px;
+    color: white;
+}
